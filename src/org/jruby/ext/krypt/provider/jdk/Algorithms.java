@@ -74,7 +74,6 @@ public class Algorithms {
         oidToJavaMap.put("1.3.36.3.2.1", RIPEMD160);
         oidToJavaMap.put("1.2.840.113549.2.5", MD5);
         
-        /* What TODO with RIPEMD-160 ? */
     }
     
     public static JavaAlgorithm getJavaAlgorithm(String rbAlgorithm) throws NoSuchAlgorithmException {
