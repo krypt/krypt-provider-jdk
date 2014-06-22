@@ -1,7 +1,11 @@
+$:.unshift File.expand_path('../lib', __FILE__)
+
+require 'krypt/provider/jdk/version'
+
 Gem::Specification.new do |s|
 
   s.name = 'krypt-provider-jdk'
-  s.version = '0.0.2.rc1'
+  s.version = Krypt::Provider::Jdk::VERSION
 
   s.author = 'Hiroshi Nakamura, Martin Bosslet'
   s.email = 'Martin.Bosslet@gmail.com'
