@@ -31,3 +31,4 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 =end
 
 require 'kryptproviderjdk.jar'
+require_relative 'jdk/version'

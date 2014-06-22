@@ -4,4 +4,6 @@ README.rdoc
 LICENSE
 lib/krypt
 lib/krypt/provider
+lib/krypt/provider/jdk
 lib/krypt/provider/jdk.rb
+lib/krypt/provider/jdk/version.rb
